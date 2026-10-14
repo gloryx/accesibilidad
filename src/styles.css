@@ -64,6 +64,9 @@ h1 { letter-spacing: -.045em; }
 .hero { max-width: 790px; padding: 42px 0 56px; }
 .hero h1 { margin: 20px 0 24px; color: var(--navy); font-size: clamp(3rem, 7vw, 6.3rem); line-height: .96; }
 .hero h1 span { color: transparent; -webkit-text-stroke: 1.5px var(--navy); }
+.hero-teacher { margin: 0 0 24px; padding-left: 16px; display: flex; flex-direction: column; gap: 3px; border-left: 3px solid var(--lime); color: var(--navy); }
+.hero-teacher span { color: #557211; font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.hero-teacher strong { font-size: 1.05rem; font-weight: 700; }
 .hero-copy { max-width: 610px; color: var(--muted); font-size: 1.23rem; line-height: 1.65; }
 .home-challenges { margin-top: 5px; }
 .challenges-heading { margin-bottom: 22px; }

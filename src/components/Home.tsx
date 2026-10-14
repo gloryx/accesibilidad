@@ -16,6 +16,7 @@ export function Home({ savedCount, onStartKeyboard, onStartVisual, onResults, on
       <section className="hero" aria-labelledby="page-title">
         <div className="eyebrow"><ShieldCheck size={17} /> Práctica guiada · UX/UI</div>
         <h1 id="page-title">Laboratorio de<br /><span>Accesibilidad Web</span></h1>
+        <p className="hero-teacher"><span>Docente responsable</span><strong>Ing. Gloriana Peña Ramírez</strong></p>
         <p className="hero-copy">
           Aprende a identificar barreras de accesibilidad mediante pruebas prácticas.
         </p>
